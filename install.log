@@ -1,0 +1,28 @@
+npm WARN deprecated snekfetch@4.0.4: use node-fetch instead
+npm WARN deprecated snekfetch@3.6.4: use node-fetch instead
+npm WARN deprecated graceful-fs@3.0.11: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+../src/binding.cc: In function ‘void init(Nan::ADDON_REGISTER_FUNCTION_ARGS_TYPE)’:
+../src/binding.cc:643:8: warning: ‘Nan::Maybe<bool> Nan::ForceSet(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Value>, v8::PropertyAttribute)’ is deprecated (declared at ../../nan/nan_maybe_43_inl.h:130) [-Wdeprecated-declarations]
+   Nan::ForceSet(target, Nan::New<v8::String>("endianness").ToLocalChecked(), Nan::New<v8::String>(CheckEndianness()).ToLocalChecked(), static_cast<PropertyAttribute>(ReadOnly|DontDelete));
+        ^
+../src/binding.cc:643:187: warning: ‘Nan::Maybe<bool> Nan::ForceSet(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Value>, v8::PropertyAttribute)’ is deprecated (declared at ../../nan/nan_maybe_43_inl.h:130) [-Wdeprecated-declarations]
+   Nan::ForceSet(target, Nan::New<v8::String>("endianness").ToLocalChecked(), Nan::New<v8::String>(CheckEndianness()).ToLocalChecked(), static_cast<PropertyAttribute>(ReadOnly|DontDelete));
+                                                                                                                                                                                           ^
+../src/binding.cc:644:8: warning: ‘Nan::Maybe<bool> Nan::ForceSet(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Value>, v8::PropertyAttribute)’ is deprecated (declared at ../../nan/nan_maybe_43_inl.h:130) [-Wdeprecated-declarations]
+   Nan::ForceSet(target, Nan::New<v8::String>("NULL").ToLocalChecked(), WrapNullPointer(), static_cast<PropertyAttribute>(ReadOnly|DontDelete));
+        ^
+../src/binding.cc:644:142: warning: ‘Nan::Maybe<bool> Nan::ForceSet(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Value>, v8::PropertyAttribute)’ is deprecated (declared at ../../nan/nan_maybe_43_inl.h:130) [-Wdeprecated-declarations]
+   Nan::ForceSet(target, Nan::New<v8::String>("NULL").ToLocalChecked(), WrapNullPointer(), static_cast<PropertyAttribute>(ReadOnly|DontDelete));
+                                                                                                                                              ^
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+npm WARN discord.js@11.3.2 requires a peer of bufferutil@^3.0.3 but none was installed.
+npm WARN discord.js@11.3.2 requires a peer of erlpack@discordapp/erlpack but none was installed.
+npm WARN discord.js@11.3.2 requires a peer of node-opus@^0.2.7 but none was installed.
+npm WARN discord.js@11.3.2 requires a peer of sodium@^2.0.3 but none was installed.
+npm WARN discord.js@11.3.2 requires a peer of libsodium-wrappers@^0.7.3 but none was installed.
+npm WARN discord.js@11.3.2 requires a peer of uws@^9.14.0 but none was installed.
